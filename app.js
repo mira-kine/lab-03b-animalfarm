@@ -18,3 +18,14 @@ catImg.addEventListener('click', ()=>{
   catSound.play();
 });
 
+window.addEventListener('keydown', (event)=> {
+  if (event.key === 'h') {
+    horseSound.play();
+  }
+  if (event.key === 'd') {
+    dogSound.play();
+  }
+  if (event.key === 'c') {
+    catSound.play();
+  }
+})
