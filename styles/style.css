@@ -20,17 +20,49 @@ main {
     flex-direction: column;
 }
 
-.animals img {
+.relax img {
     width: 30vw;
     display: flex;
     border-radius: 25%;
     padding: 10px;
     cursor: pointer;
+    transition: ease-in-out 0.5s;
+    opacity: 50%;
 }
 
-.animals {
+.relax {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
+    position: relative;
+    text-align: center;
+    width: 100%;
 }
+
+#waves-text {
+    position: absolute;
+    top: 170px;
+    left: 180px;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+}
+
+#fire-text {
+    position: absolute;
+    top: 170px;
+    left: 440px;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+}
+
+#rain-text {
+    position: absolute;
+    top: 170px;
+    left: 780px;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+}
+
+.relax :hover {
+    opacity: 100%;
+};

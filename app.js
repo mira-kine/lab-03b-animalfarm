@@ -1,31 +1,31 @@
-const horseImg = document.getElementById('horse-image');
-const horseSound = document.getElementById('horse');
-const dogImg = document.getElementById('dog-image');
-const dogSound = document.getElementById('dog');
-const catImg = document.getElementById('cat-image');
-const catSound = document.getElementById('cat');
+const wavesImg = document.getElementById('waves-image');
+const wavesSound = document.getElementById('waves');
+const fireImg = document.getElementById('fire-image');
+const fireSound = document.getElementById('fire');
+const rainImg = document.getElementById('rain-image');
+const rainSound = document.getElementById('rain');
 
 
-horseImg.addEventListener('click', ()=>{
-  horseSound.play();
+wavesImg.addEventListener('click', ()=>{
+  wavesSound.play();
 });
 
-dogImg.addEventListener('click', ()=>{
-  dogSound.play();
+fireImg.addEventListener('click', ()=>{
+  fireSound.play();
 });
 
-catImg.addEventListener('click', ()=>{
-  catSound.play();
+rainImg.addEventListener('click', ()=>{
+  rainSound.play();
 });
 
 window.addEventListener('keydown', (event)=> {
-  if (event.key === 'h') {
-    horseSound.play();
+  if (event.key === 'w') {
+    waveSound.play();
   }
-  if (event.key === 'd') {
-    dogSound.play();
+  if (event.key === 'f') {
+    fireSound.play();
   }
-  if (event.key === 'c') {
-    catSound.play();
+  if (event.key === 'r') {
+    rainSound.play();
   }
 })
