@@ -67,3 +67,11 @@ main {
 .relax :hover {
     opacity: 100%;
 };
+
+.relax, h3 {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Tis says to try aligning by using the bckground-image css propery on a div and nest the h3 inside of it */
